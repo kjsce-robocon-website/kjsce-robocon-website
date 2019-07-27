@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+.menu-fix {
+    margin-top: 50px;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container1 {
+    padding-left: 15px;
+    margin-left: auto;
+    padding-right: 15px;
+    margin-left: auto;
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.animated {
+    animation-direction: 1s;
+    animation-fill-mode: both;
+}
+
+.section-title {
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333;
+    display: inline-block;
+    border-bottom: 4px solid;
+    line-height: 1.1;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+section .p-padding p {
+    padding-top: 10px;
+    letter-spacing: 1.5px;
+    color: #000000;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+    vertical-align: baseline;
+    border: 0;
+}
+
+section.who-we-are .col-lg-12 {
+    margin-bottom: 50px;
+}
+
+.col-lg-12 {
+    width: 100%;
+}
+
+.introducing,
+.content {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.introducing,
+.content:first-of-type {
+    /* For increasing performance 
+                       ID/Class should've been used. 
+                       For a small demo 
+                       it's okaish for now */
+    animation: showup 7s infinite;
+}
+
+.introducing:last-of-type {
+    width: 0px;
+    animation: reveal 7s infinite;
+}
+
+.content:last-of-type {
+    width: 0px;
+    animation: reveal 7s infinite;
+}
+
+.introducing:last-of-type span {
+    margin-left: -355px;
+    animation: slidein 7s infinite;
+}
+
+.content:last-of-type span {
+    margin-left: -355px;
+    animation: slidein 7s infinite;
+}
+
+.content span {
+    font-size: 25px;
+    font-weight: 600;
+    color: #646464;
+}
+
+@keyframes showup {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes slidein {
+    0% {
+        margin-left: -800px;
+    }
+    20% {
+        margin-left: -800px;
+    }
+    35% {
+        margin-left: 0px;
+    }
+    100% {
+        margin-left: 0px;
+    }
+}
+
+@keyframes reveal {
+    0% {
+        opacity: 0;
+        width: 0px;
+    }
+    20% {
+        opacity: 1;
+        width: 0px;
+    }
+    30% {
+        width: 355px;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        width: 355px;
+    }
+}
+
+
+/* 
+about us animation */
+
+.center {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: -5px;
+}
+
+.char {
+    font-size: 18px;
+    height: 40px;
+    animation: an 1s ease-out 1 both;
+    display: inline-block;
+}
+
+@keyframes an {
+    from {
+        opacity: 0;
+        transform: perspective(500px) translate3d(-35px, -40px, -150px) rotate3d(1, -1, 0, 35deg);
+    }
+    to {
+        opacity: 1;
+        transform: perspective(500px) translate3d(0, 0, 0);
+    }
+}

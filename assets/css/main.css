@@ -1,5 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
 
 /*
 	Alpha by HTML5 UP
@@ -217,7 +218,7 @@ a {
     transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
     border-bottom: dotted 1px;
     color: #e89980;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 a:hover {
@@ -2920,7 +2921,8 @@ body.landing #page-wrapper {
 #banner {
     background-attachment: scroll, fixed;
     background-color: #666;
-    background-image: url("images/overlay.png"), url("../../images/arena2.jpg");
+    /* background-image: url("images/overlay.png"), url("../../images/team2.jpg"); */
+    background: linear-gradient(-60deg, #64b3f4, #c2e59c);
     background-position: top left, center center;
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;
@@ -2939,7 +2941,6 @@ body.landing #page-wrapper {
 #banner h5,
 #banner h6 {
     color: hsl(0, 41%, 97%);
-    font-weight: bold;
 }
 
 #banner h2 {
