@@ -2921,8 +2921,8 @@ body.landing #page-wrapper {
 #banner {
     background-attachment: scroll, fixed;
     background-color: #666;
-    /* background-image: url("images/overlay.png"), url("../../images/team2.jpg"); */
-    background: linear-gradient(-60deg, #64b3f4, #c2e59c);
+    background-image: url("images/overlay.png"), url("../../images/robocon3.JPG");
+    /* background: linear-gradient(-60deg, #64b3f4, #c2e59c); */
     background-position: top left, center center;
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;
