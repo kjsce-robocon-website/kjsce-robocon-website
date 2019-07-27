@@ -241,3 +241,59 @@ blog container */
 .more-area {
     margin-top: -40px;
 }
+
+.new {
+    text-align: center;
+    margin-left: 6em;
+}
+
+
+/* 
+rule book and demo video text*/
+
+.clean-idea {
+    background: url("../../images/arena2.jpg") center center fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.clean-idea h1 {
+    color: rgb(0, 0, 0);
+}
+
+.clean-idea p {
+    font-size: 20px;
+    font-style: italic;
+    width: 80%;
+    font-weight: bold;
+    margin: 0 auto;
+    color: #0a0a0a !important;
+}
+
+
+/* 
+button rule book and demo video   */
+
+.button-set .btn {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+}
+
+.button-set .btn-danger {
+    margin-bottom: 5px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.button-set .btn-primary {
+    background-color: #21df6a;
+    border: 1px solid #12a149;
+}
+
+.button-set {
+    margin-top: 50px;
+}
+
+.button-set .fa {
+    padding-right: 10px;
+}
