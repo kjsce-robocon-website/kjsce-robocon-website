@@ -43,12 +43,12 @@
 section .p-padding p {
     padding-top: 10px;
     letter-spacing: 1.5px;
-    color: #000000;
+    color: #515151;
 }
 
 p {
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 500;
     vertical-align: baseline;
     border: 0;
 }
@@ -163,7 +163,6 @@ about us animation */
     display: flex;
     justify-content: center;
     align-items: center;
-    line-height: -5px;
 }
 
 .char {
@@ -318,7 +317,7 @@ service */
 }
 
 .service .col-md-5 {
-    padding-top: 45px;
+    padding-top: 20px;
 }
 
 .service .col-md-2 {
@@ -326,7 +325,8 @@ service */
 }
 
 .left-column .media {
-    text-align: right;
+    text-align: left;
+    margin-left: 70px;
 }
 
 .media {
@@ -335,7 +335,7 @@ service */
 
 .left-column .media-left {
     float: right;
-    padding-left: 20px;
+    /* padding-left: 20px; */
     padding-right: 0;
 }
 
@@ -360,7 +360,7 @@ service */
 }
 
 .image-box {
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .image-box img {
@@ -368,7 +368,6 @@ service */
     width: inherit;
     height: inherit;
     height: 400px;
-    margin-right: 40px;
 }
 
 .media:hover .media-left a .fa {
@@ -387,20 +386,26 @@ service */
     display: block;
 }
 
+.right-column .media {
+    padding: 0px 15px;
+}
+
 .right-column .media-left.media-middle {
     float: left;
-    padding-right: 20px;
+    padding-right: 0;
 }
 
 .media-body h2 {
     font-size: 18px;
     line-height: 30px;
     color: #515151;
+    margin-left: 20px;
 }
 
 .media-body h3 {
     font-size: 16px;
     color: #777777;
+    margin-left: 20px;
 }
 
 .media-body span {
