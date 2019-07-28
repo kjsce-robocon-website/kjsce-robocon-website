@@ -2177,7 +2177,7 @@ input[type="radio"]+label:before {
 }
 
 .icon.major.accent2 {
-    background: #e89980;
+    background: #ff7a59;
     color: #ffffff;
 }
 
@@ -2601,7 +2601,7 @@ input[type="submit"].primary,
 input[type="reset"].primary,
 input[type="button"].primary,
 .button.primary {
-    background-color: #e89980;
+    background-color: #ff7a59;
     color: #ffffff !important;
 }
 
@@ -2682,7 +2682,7 @@ body.landing #page-wrapper {
 }
 
 #header {
-    background: #444;
+    background: #444 !important;
     color: #bbb;
     cursor: default;
     height: 3.25em;
@@ -2761,7 +2761,7 @@ body.landing #page-wrapper {
 }
 
 #header nav>ul>li.active a:not(.button) {
-    background-color: rgba(153, 153, 153, 0.25);
+    background-color: rgba(153, 153, 153, 0.25) !important;
 }
 
 #header nav>ul>li .button {
@@ -2782,14 +2782,14 @@ body.landing #page-wrapper {
 #header input[type="reset"]:hover,
 #header input[type="button"]:hover,
 #header .button:hover {
-    background-color: rgba(153, 153, 153, 0.25);
+    background-color: rgba(153, 153, 153, 0.25) !important;
 }
 
 #header input[type="submit"]:active,
 #header input[type="reset"]:active,
 #header input[type="button"]:active,
 #header .button:active {
-    background-color: rgba(153, 153, 153, 0.5);
+    background-color: rgba(153, 153, 153, 0.5) !important;
 }
 
 #header .container {
@@ -2886,7 +2886,7 @@ body.landing #page-wrapper {
 .dropotron li.active>span,
 .dropotron li:hover>a,
 .dropotron li:hover>span {
-    background: #e89980;
+    background: #ff7a59;
     color: #ffffff;
 }
 
@@ -2921,7 +2921,7 @@ body.landing #page-wrapper {
 #banner {
     background-attachment: scroll, fixed;
     background-color: #666;
-    background-image: url("images/overlay.png"), url("../../images/robocon3.JPG");
+    background-image: url("../../images/robocon3.JPG");
     /* background: linear-gradient(-60deg, #64b3f4, #c2e59c); */
     background-position: top left, center center;
     background-repeat: repeat, no-repeat;
@@ -3069,7 +3069,7 @@ body.landing #main {
 /* CTA */
 
 #cta {
-    background: #e89980;
+    background: #ff7a59;
     color: #f9e6df;
     padding: 3.5em 0 4em 0;
     text-align: center;
@@ -3303,7 +3303,7 @@ body.landing #main {
         font-weight: 900;
     }
     #navButton .toggle:before {
-        background: rgba(192, 192, 192, 0.75);
+        background: rgba(192, 192, 192, 0.75) !important;
         border-radius: 6px;
         color: #fff;
         content: '\f0c9';
