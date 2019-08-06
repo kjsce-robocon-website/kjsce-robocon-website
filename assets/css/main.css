@@ -2924,7 +2924,8 @@ body.landing #page-wrapper {
     background-image: url("../../images/robocon3.JPG");
     /* background: linear-gradient(-60deg, #64b3f4, #c2e59c); */
     background-position: top left, center center;
-    background-repeat: repeat, no-repeat;
+    /* background-position: center; */
+    background-repeat: round;
     background-size: auto, cover;
     color: #fff;
     padding: 12em 0 20em 0;
