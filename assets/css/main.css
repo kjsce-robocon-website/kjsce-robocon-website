@@ -2921,7 +2921,7 @@ body.landing #page-wrapper {
 #banner {
     background-attachment: scroll, fixed;
     background-color: #666;
-    background-image: url("../../images/robocon3.JPG");
+    background-image: url("../../images/arena2.JPG");
     /* background: linear-gradient(-60deg, #64b3f4, #c2e59c); */
     background-position: top left, center center;
     /* background-position: center; */
@@ -2930,6 +2930,7 @@ body.landing #page-wrapper {
     color: #fff;
     padding: 12em 0 20em 0;
     text-align: center;
+
 }
 
 #banner :last-child {
@@ -3513,8 +3514,6 @@ body.landing #main {
     padding: 10px;
     text-shadow: 0px 6px 8px rgba(0, 0, 0, 0.6);
     transition: all ease-in-out 150ms;
-    width: 55px;
-    height: 55px;
 }
 
 .wrapper li:nth-child(1) {
