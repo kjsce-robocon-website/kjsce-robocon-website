@@ -217,7 +217,7 @@ a {
     -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
     transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
     border-bottom: dotted 1px;
-    color: #e89980;
+    color: #0a5491;
     text-decoration: none !important;
 }
 
@@ -2930,7 +2930,6 @@ body.landing #page-wrapper {
     color: #fff;
     padding: 12em 0 20em 0;
     text-align: center;
-
 }
 
 #banner :last-child {
