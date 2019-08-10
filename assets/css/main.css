@@ -3032,11 +3032,11 @@ body.landing #main {
     -webkit-transition: opacity 0.2s ease-in-out;
     -ms-transition: opacity 0.2s ease-in-out;
     transition: opacity 0.2s ease-in-out;
-    opacity: 0.35;
+    opacity: 0.55;
 }
 
 #footer .icons a:hover {
-    opacity: 0.75;
+    opacity: 0.80;
 }
 
 #footer .copyright {

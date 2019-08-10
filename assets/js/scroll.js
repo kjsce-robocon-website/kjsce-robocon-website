@@ -1,14 +1,12 @@
-$(document).ready(function(e)
-{
-	e.preventDefault();
-	$('a.page-scroll').bind('click', function(event)
-	{
-		var $anchor = $(this);
-		$('html','body').stop().animate({
+$(document).ready(function(event) {
+    // e.preventDefault();
+    $('a.page-scroll').bind('click', function(event) {
+        var $anchor = $(this);
+        $('html', 'body').stop().animate({
 
-			scrollTop: $($anchor.attr('href')).offset().top
-		},1500,'easeInOutExpo');
-		event.preventDefault();
-	});
-	
+            scrollTop: $($anchor.attr('href')).offset().top
+        }, 1500, 'easeInOutExpo');
+        event.preventDefault();
+    });
+
 });

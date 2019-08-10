@@ -190,7 +190,7 @@ input[type='radio'] {
 .input-fields label {
     display: block;
     margin-bottom: 10px;
-    color: #030202;
+    color: #777;
 }
 
 .warning {
@@ -198,12 +198,12 @@ input[type='radio'] {
 }
 
 .info {
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 300;
     display: block;
     margin-top: 50px;
     opacity: .5;
-    color: #080808;
+    color: rgb(44, 43, 43);
 }
 
 div[class*='column'] {
