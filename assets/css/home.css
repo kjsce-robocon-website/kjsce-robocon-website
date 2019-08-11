@@ -367,7 +367,7 @@ service */
     width: 100%;
     width: inherit;
     height: inherit;
-    height: 400px;
+    height: 420px;
 }
 
 .media:hover .media-left a .fa {
@@ -392,20 +392,20 @@ service */
 
 .right-column .media-left.media-middle {
     float: left;
-    padding-right: 0;
 }
 
 .media-body h2 {
     font-size: 18px;
-    line-height: 30px;
     color: #515151;
     margin-left: 20px;
+    font-weight: 600;
 }
 
 .media-body h3 {
     font-size: 16px;
     color: #777777;
     margin-left: 20px;
+    width: 100%;
 }
 
 .media-body span {
