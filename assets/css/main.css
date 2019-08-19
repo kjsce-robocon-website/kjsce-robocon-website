@@ -3509,9 +3509,7 @@ body.landing #main {
     margin-top: 2em;
 }
 
-.wrapper i {
-    padding: 10px;
-    text-shadow: 0px 6px 8px rgba(0, 0, 0, 0.6);
+.text-center i {
     transition: all ease-in-out 150ms;
 }
 
