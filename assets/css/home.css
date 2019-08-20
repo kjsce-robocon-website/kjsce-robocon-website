@@ -163,12 +163,13 @@ about us animation */
     display: flex;
     justify-content: center;
     align-items: center;
+    line-height: 2em;
 }
 
 .char {
     font-size: 20px;
     height: 40px;
-    animation: an 1s ease-out 1 both;
+    /* animation: an 1s ease-out 1 both; */
     display: inline-block;
 }
 
@@ -235,17 +236,11 @@ blog container */
     font-size: 32px;
     text-transform: uppercase;
     padding-top: 3px;
-    color: #ebecf3;
-}
-
-.blog-wrapper .more-area {
-    margin-top: 45px;
-}
-
-.blog-wrapper .new {
     text-align: center;
-    color: white;
-    font-style: bold;
+}
+
+.more-area {
+    margin-top: -40px;
 }
 
 
