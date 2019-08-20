@@ -238,13 +238,14 @@ blog container */
     color: #ebecf3;
 }
 
-.more-area {
-    margin-top: -40px;
+.blog-wrapper .more-area {
+    margin-top: 45px;
 }
 
-.new {
+.blog-wrapper .new {
     text-align: center;
-    margin-left: 6em;
+    color: white;
+    font-style: bold;
 }
 
 
