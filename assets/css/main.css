@@ -1,7 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
-@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
 /*
 	Alpha by HTML5 UP
@@ -2950,10 +2949,6 @@ body.landing #page-wrapper {
     line-height: 1em;
     /* margin: 0 0 0.5em 0; */
     padding: 0;
-    border-right: solid 3px rgba(0, 255, 0, .75);
-    white-space: nowrap;
-    overflow: hidden;
-    margin: 0 auto;
     text-align: center;
 }
 
