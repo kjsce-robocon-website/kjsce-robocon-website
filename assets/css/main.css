@@ -2094,7 +2094,8 @@ input[type="radio"]+label:before {
 .box .image.featured img {
     border-radius: 0;
     display: block;
-    width: 100%;
+    margin: 0 auto;
+    width: 40%;
 }
 
 .box .image.featured:first-child {
@@ -2945,10 +2946,12 @@ body.landing #page-wrapper {
 }
 
 #banner h2 {
-    font-size: 3.5em;
-    line-height: 1em;
-    /* margin: 0 0 0.5em 0; */
-    padding: 0;
+    /* font-family: 'Arvo'; */
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 0.05em 0.075em 0 rgba(2, 2, 2, 0.1);
+    font-size: 3em;
+    letter-spacing: 3px;
     text-align: center;
 }
 
