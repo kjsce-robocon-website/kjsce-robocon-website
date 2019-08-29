@@ -45,7 +45,7 @@ section .p-padding p {
     padding-top: 10px;
     letter-spacing: 1.5px;
     color: #515151;
-    /* padding-right: 30px; */
+    padding-right: 30px;
 }
 
 p {
